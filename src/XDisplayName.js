@@ -14,6 +14,8 @@ const XDisplayName=()=>{
 
     return (
         <div>
+       <h1>Full Name Display</h1>
+        <div>
             <form onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="firstName">First Name:</label>
@@ -41,6 +43,7 @@ const XDisplayName=()=>{
                 <button type="submit">Submit</button>
             </form>
             {fullName && <div>Full Name: {fullName}</div>}  
+        </div>
         </div>
     )
 }
